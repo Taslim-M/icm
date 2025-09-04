@@ -13,7 +13,7 @@
 
 ### From Source
 ```bash
-git clone https://github.com/codelion/icm.git
+git clone https://github.com/Taslim-M/icm.git
 cd icm
 pip install -e .
 ```
