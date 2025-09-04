@@ -10,7 +10,7 @@ label assignments that reflect the model's internal understanding of concepts.
 """
 
 from .core import ICMSearcher, ICMResult
-from .datasets import ICMDataset, load_icm_dataset
+from .datasets import ICMDataset, ICMExample, load_icm_dataset
 from .consistency import LogicalConsistencyChecker
 from .exporters import ICMExporter
 from .storage import ICMStorage
@@ -23,6 +23,7 @@ __all__ = [
     "ICMSearcher",
     "ICMResult", 
     "ICMDataset",
+    "ICMExample",
     "load_icm_dataset",
     "LogicalConsistencyChecker",
     "ICMExporter",
